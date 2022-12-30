@@ -1,0 +1,189 @@
+@charset "utf-8";
+@font-face{
+	font-family: myfirstfont;
+	src:url("../fonts/Henny_Penny/HennyPenny-Regular.ttf");
+}
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.carou {
+	height: 200px;
+	background-size: cover;
+}
+.caros{
+	align-content: center;
+	height: 650px;
+	font-size: 2em;
+	color:#fff;
+	text-shadow:0.025em 0.025em 0.2em #39FF14; 
+	font-family:myfirstfont;
+}
+.firstcon{
+	position: sticky;
+}
+.sec-container {
+
+	height:auto;
+	background-image:url("../img/about-bg.jpg");
+	background-color: #000;
+	background-size: cover;
+	background-blend-mode:difference;
+
+}
+
+.sec-area {
+	height: 400px;
+
+	color: #fff;
+	
+
+	text-align: left;
+
+	font-size: 1.1em;
+	
+	
+}
+
+#list-icon {
+	list-style: none;
+}
+
+.sec-image {
+	background: url("../img/about.jpg");
+	background-size: cover;
+	height: 320px;
+	border: solid 5px gray;
+
+}
+
+.third-container {
+	width: 100%;
+	height:auto;
+	background-color: #131212;
+	color: #1a5715;
+	
+}
+.thc{
+	width: 100%;
+	height: auto;
+	
+}
+
+
+.third-box {
+	width: 100%;
+	height:auto;
+	background-color: #1312125;
+	}
+.subbox {
+	background-color: #222222;
+	height: auto;
+	padding:15px;
+	margin-bottom: 15px;
+	color: #fff;
+	text-align: justify;
+	border: 2px  double  #121111;
+}
+
+
+
+
+.subbox:hover{
+	background-color:  #1a5715;
+	
+}
+
+.forth-container{
+	height:auto;
+background-color:#121111;
+	color:#fff;
+	width: 100%;
+
+
+}
+.forth-box{
+	
+	height: auto;
+	
+}
+.card-box{
+	height: auto;
+
+	
+}
+.menu #menu-filter {
+  padding: 0;
+  margin:0;
+  list-style: none;
+  text-align: center;
+	display: flex;
+	
+
+}
+.menu #menu-filter>li{
+	margin-left: 15px;
+	border: 1px solid #1a5715;
+	padding: 0.5em;
+	border-radius: 10%;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow:2px 2px 2px 1px #000;
+}
+
+
+.menu #menu-filter>li:hover,.menu #menu-filter li.filter-active{
+	background-color: #1a5715;
+	
+}
+.menu-content>h4{
+	font-family: VastShadow;
+	color: #8AF746;
+}
+.menu-container{
+	height: auto;
+	
+	width: 100%;
+	justify-content: center;
+	
+	
+}
+.menu-item{
+	height: auto;
+	background-color: #222222;
+	color: #fff;
+
+	width: 100%;
+	
+	margin-top:2px;
+	
+	box-shadow:5px 5px 5px 2px #000;
+	
+}
+
+.menu-img{
+	height: auto;
+	width: 100%;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow:2px 2px 2px 0px #000;
+	
+}
+.section-bg{
+	height:auto;
+	background:url("../img/about.jpg");
+	width: 100%;
+	background-size: cover;
+	color: #fff;
+	}
+.event-bg{
+	height:auto;
+	background:url("../img/events-bg.jpg");
+	width: 100%;
+	background-size: cover;
+	margin: 0px;
+}
